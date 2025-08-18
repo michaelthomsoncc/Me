@@ -105,6 +105,30 @@ ul {
     margin-bottom: 10px;
 }
 
+/* Blog Posts (for future additions) */
+.blog-post {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.blog-post h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    margin-bottom: 10px;
+}
+
+/* General Image Responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Links */
 a {
     color: #007bff;
