@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CloudConnect: AI-Powered Touchless Document Processing">
+    <title>CloudConnect - Michael Thomson</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Schema.org markup for Organization -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "CloudConnect",
+        "url": "https://cloud-connect-services.com/",
+        "description": "Revolutionising Document Processing with AI-powered solutions.",
+        "foundingDate": "2024",
+        "founder": [
+            {
+                "@type": "Person",
+                "name": "Michael Thomson",
+                "jobTitle": "CTO & Co-Founder"
+            }
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Newcastle upon Tyne",
+            "addressCountry": "UK"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>CloudConnect</h1>
+            <p>AI-Driven Intelligent Document Processing</p>
+            <!-- Add company logo if available -->
+            <img src="cloudconnect-logo.jpg" alt="CloudConnect Logo" class="profile-photo"> <!-- Replace with actual logo path -->
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About CloudConnect</h2>
+        <p>CloudConnect is revolutionizing document processing with its Touchless Document Processing Managed Service. We offer a fully automated, end-to-end solution for handling invoices, purchase orders, and other documents. Founded in 2024 and based in Newcastle upon Tyne, UK, CloudConnect is a privately held company with a small, dedicated team of 2-10 employees focused on delivering unmatched efficiency and accuracy in information services.</p>
+        <p>As CTO and Co-Founder, I (Michael Thomson) lead the technical vision, building on years of experience in scaling AI-powered solutions from previous ventures like CloudTrade.</p>
+    </section>
+
+    <section id="technology">
+        <h2>Our Cutting-Edge Technology: Redefining Document Processing</h2>
+        <p>At CloudConnect, we’re passionate about transforming the way businesses handle complex documents like invoices and purchase orders. Our proprietary technology sets us apart, turning the challenge of unstructured PDFs into a seamless advantage. The more complex the document, the better—as far as we’re concerned. While our competitors rely on AI for direct capture that excels with simple layouts, we thrive where others struggle, delivering unmatched accuracy and efficiency with the toughest formats. Leveraging advanced AI technologies including Natural Language Processing (NLP), Prolog-based declarative rules, and Agentic AI, our format-agnostic engine handles any document layout, language, or type with precision, while supporting global tax compliance.</p>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How Our Technology Works</h2>
+        <p>Our approach harnesses AI to create tailored rules for each new invoice format encountered. These rules define document structures by mapping spatial and logical relationships between static labels and headings and variable data items that you need to capture. This method adapts dynamically, ensuring flexibility across diverse layouts—whether multi-column tables, embedded images, or irregular sections. Every rule is rigorously reviewed and validated by human experts to guarantee it captures the correct data while eliminating false positives. If the AI missteps, our team can refine the rules or take full control in the most intricate cases. Should a document reveal unexpected variations—unseen in an initial sample—we detect the issue, adjust the rules, and rerun the process to ensure nothing slips through.</p>
+        <p>For genuinely missing data (e.g., fields absent from the PDF), we deploy an innovative enhancement layer. By integrating off-document data sources—like customer-supplied purchase order feeds or product catalogs—we enrich and validate the data. This allows us to flag discrepancies, such as when invoice data doesn’t align with a purchase order, all before the document reaches your system. From your perspective, it’s invisible—just a reliable, structured data feed into your ERP or accounting platform.</p>
+    </section>
+
+    <section id="efficiency">
+        <h2>Streamlined Efficiency: Less Labor, More Precision</h2>
+        <p>Unlike traditional methods that rely on annotating documents to train custom AI models—a time-consuming and resource-heavy process—our hybrid AI-human system delivers superior results with significantly less effort. By leveraging tailored, dynamically generated rules and human validation, we eliminate the need for extensive manual annotations. This means you avoid the repetitive, labor-intensive task of labeling countless document samples to train a model. Our process is approximately <strong>5x less human effort</strong> compared to training custom models, as we focus on creating adaptable rules that evolve with each new document format, rather than requiring exhaustive upfront training. This efficiency doesn’t come at the cost of accuracy—our technology achieves <strong>~100x fewer errors than generic AI models</strong> and <strong>~10x fewer errors than custom-trained models</strong>, delivering a remarkable <strong>99.9+% document-level accuracy</strong> (where a document is correct only if all fields are accurately extracted) and a guaranteed <strong>100% character-level accuracy</strong> through AI and human-in-the-loop validation. By combining AI-driven rule creation with targeted human oversight and off-document data integration, we streamline workflows, reduce manual touchpoints, and deliver precise, actionable data with minimal effort.</p>
+    </section>
+
+    <section id="sets-apart">
+        <h2>What Sets Us Apart</h2>
+        <p>Unlike competitors who lean on generic AI models that falter with complexity, our hybrid AI-human process is built for the real world. We don’t just capture data; we ensure it’s accurate and actionable. If data remains incomplete after our enhancements, we adapt to your needs—sending the document as-is, offering a user interface for manual decisions, or enabling data completion, depending on your preference. This combination of advanced AI, human oversight, and adaptive validation makes us different. We don’t shy away from complexity; we embrace it, turning it into our strength. Our technology scales effortlessly, reduces manual touchpoints, and delivers consistent results, even with the messiest documents. Key differentiators include our 100% character-level accuracy guarantee, rapid adaptation to new document types using Agentic AI, and seamless integration for end-to-end automation.</p>
+    </section>
+
+    <section id="why-choose">
+        <h2>Why Choose CloudConnect?</h2>
+        <p>With CloudConnect, you’re not just getting a tool—you’re gaining a partner that thrives on complexity and delivers precision. Our process is invisible to you, yet transformative, streamlining workflows and boosting efficiency. Ready to see the difference? Contact us today to learn how our technology can revolutionize your document processing.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Visit the official website: <a href="https://cloud-connect-services.com/" target="_blank">cloud-connect-services.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/company/cloudconnect1" target="_blank">CloudConnect on LinkedIn</a></p>
+        <p>For inquiries, contact me via my <a href="contact.html">contact page</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Michael Thomson. All rights reserved. | <a href="index.html">Back to Home</a></p>
+    </footer>
+</body>
+</html>
