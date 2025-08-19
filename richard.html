@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Richard Develyn: Inventor and Co-Founder of CloudTrade">
+    <title>Richard Develyn - Michael Thomson</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Schema.org markup for Person -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Richard Develyn",
+        "jobTitle": "CTO & Co-Founder",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "CloudTrade Technologies Limited"
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "University of Surrey"
+        },
+        "sameAs": [
+            "https://uk.linkedin.com/in/richarddevelyn",
+            "https://x.com/rdevelyn"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Richard Develyn</h1>
+            <p>Inventor, CTO & Co-Founder of CloudTrade</p>
+            <!-- Add photo if available -->
+            <img src="richard-develyn-photo.jpg" alt="Richard Develyn" class="profile-photo"> <!-- Replace with actual photo path if available -->
+        </div>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Richard Develyn is a technology innovator and co-founder of CloudTrade Technologies Limited, a UK-based company founded in 2010 specializing in electronic document processing, e-invoicing, and accounts payable automation. As the former Chief Technology Officer (CTO) and founding director, he played a pivotal role in developing the company's proprietary software, including Gramatica, which leverages AI and rules-based technology for high-accuracy data extraction from documents like PDFs. Develyn is the inventor of the core patent underpinning CloudTrade's technology: US Patent No. 9,558,295 B2, titled "System for Data Extraction and Processing." This page provides a detailed overview of his background and the invention, based on available public information.</p>
+    </section>
+
+    <section id="background">
+        <h2>Background</h2>
+        <p>Richard Develyn has a strong foundation in technology and software development, with a career focused on innovative solutions for data processing and automation. He co-founded CloudTrade Technologies Limited in 2010, serving as CTO until recently (post-acquisition by Advanced in 2021). Under his technical leadership, CloudTrade grew into a leader in e-invoicing, processing billions in invoice value and partnering with major organizations like IBM, SupplyOn, and SAP.</p>
+        <p>Education: Develyn studied at the University of Surrey, where he likely gained expertise in computer science or related fields, though specific degree details are not publicly detailed.</p>
+        <p>Professional Experience: As CTO and founding director, Develyn was instrumental in the company's technological advancements. He oversaw the development of patented systems that addressed challenges in unstructured document processing. Prior to CloudTrade, limited public information is available on his earlier career, but his work suggests a background in software engineering, possibly in fintech or data management. Following CloudTrade's acquisition, Develyn ceased being a person with significant control in the company around July 2018, though he remained involved until more recent times.</p>
+        <p>Personal Interests: Beyond his professional life, Develyn is passionate about Doctor Who, particularly the first four Doctors, and has contributed to fan communities by creating reconstructions of missing episodes, such as "The Wheel in Space" and "The Ice Warriors." He is also an enthusiast of fantasy role-playing games, especially Pathfinder, where he participates in forums, writes modules, and engages in the community. His X (Twitter) account (@rdevelyn) highlights these passions, with a bio stating: "My twitter account is for two passions: Doctor Who, particularly the first four Doctors, and Fantasy Role Playing Games, particularly Pathfinder."</p>
+    </section>
+
+    <section id="invention">
+        <h2>The Invention: System for Data Extraction and Processing</h2>
+        <p>Develyn's key contribution to CloudTrade is the invention detailed in US Patent No. 9,558,295 B2 (also filed in Europe and Australia). Originally assigned to Keywordlogic Ltd. (a CloudTrade subsidiary) and later to Advanced Business Software and Solutions Ltd., this patent forms the foundation of CloudTrade's products like Gramatica and Cloud Capture.</p>
+        <h3>Key Patent Details</h3>
+        <ul>
+            <li><strong>Title:</strong> System for Data Extraction and Processing</li>
+            <li><strong>Patent Number:</strong> US9558295B2</li>
+            <li><strong>Inventor:</strong> Richard Develyn</li>
+            <li><strong>Original Assignee:</strong> Keywordlogic Ltd. (a subsidiary of CloudTrade Technologies Limited)</li>
+            <li><strong>Current Assignee:</strong> Advanced Business Software and Solutions Ltd. (after CloudTrade was acquired)</li>
+            <li><strong>Priority Date:</strong> January 31, 2011</li>
+            <li><strong>Filing Date:</strong> January 31, 2012</li>
+            <li><strong>Publication Date:</strong> November 28, 2013 (as US20130318110A1)</li>
+            <li><strong>Grant Date:</strong> January 31, 2017</li>
+        </ul>
+        <h3>Abstract and Purpose</h3>
+        <p>The patent describes a system designed to automatically extract and process data from electronic documents, such as PDFs, which often lack structured context (e.g., no embedded metadata for easy parsing). Traditional methods like optical character recognition (OCR) can struggle with varying layouts, fonts, or visual elements, leading to errors in data interpretation. This invention addresses these issues by combining a data acquisition engine for raw extraction with a sophisticated processing engine that applies rules and AI-like algorithms to interpret the data meaningfully. The goal is to convert unstructured document data into a structured format (e.g., XML or CSV) for seamless integration into business systems, such as invoice processing software. This enables automation, reduces manual data entry, and minimizes errors, which is particularly useful for high-volume tasks like handling supplier invoices in finance departments.</p>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How the Invention Works</h2>
+        <p>The system operates in two main stages: data acquisition and data processing. Here's a step-by-step breakdown:</p>
+        <ol>
+            <li><strong>Data Acquisition Engine:</strong>
+                <ul>
+                    <li>This component scans the electronic document and extracts individual "glyphs" (characters or symbols) along with their spatial and visual properties. These properties include:</li>
+                    <li>Location on the page (e.g., x-y coordinates).</li>
+                    <li>Font type, size, and style.</li>
+                    <li>Background color, shading, or other visual cues (e.g., bold text for headers).</li>
+                    <li>Unlike basic text extraction, this engine captures contextual visual information, which helps in understanding the document's structure. For example, it can differentiate a table header from body text based on shading or positioning.</li>
+                    <li>The engine sources both character-level data (text content) and pixel-level information (visual rendering) from the document file.</li>
+                </ul>
+            </li>
+            <li><strong>Processing Engine:</strong>
+                <ul>
+                    <li>This is the core of the invention, using a set of predefined rules and a "backward tracking search" algorithm to interpret the extracted data.</li>
+                    <li><strong>Rules:</strong> These are hierarchical guidelines that define how to analyze the data. At least one rule specifies an "anchor point"—a reliable, standardized element in the document (e.g., a postcode in a specific format like "AB12 3CD" for UK addresses). Anchor points serve as starting references to "anchor" the interpretation process.</li>
+                    <li>Rules describe relationships between glyphs and their properties. For instance, a rule might say: "If text is bold and located above a table, treat it as a header."</li>
+                    <li>Multiple anchor points can be used if needed, and rules are applied in a hierarchy to find the "best fit" interpretation.</li>
+                    <li><strong>Backward Tracking Search Algorithm:</strong> This AI-inspired method handles ambiguity by working like a logical reasoning engine:</li>
+                    <li>It defines "axioms" (known facts from the data) and "hypotheses" (possible interpretations).</li>
+                    <li>The algorithm applies parts of a hypothesis to the axioms and tests if they match. If a match fails, it "backtracks"—reverting to earlier steps, discarding invalid assumptions, and trying alternatives.</li>
+                    <li>This process continues until a valid meaning is ascribed to the data, ensuring robustness even for complex or inconsistent documents.</li>
+                    <li><strong>Sectioning for Efficiency:</strong> Long documents can be divided into logically uncorrelated sections (e.g., separate invoice pages), with anchor points identified in each. This prevents exponential processing delays.</li>
+                    <li><strong>Output Formatting:</strong> Once interpreted, the data is formatted into a user-defined structure:</li>
+                    <li>XML: With specific tags (e.g., <invoicenumber>12345</invoicenumber>).</li>
+                    <li>CSV: Sorted lists (e.g., "InvoiceNumber,SupplierName,TotalAmount").</li>
+                    <li>The system can timestamp outputs for versioning and handle multiple document types.</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section id="advantages">
+        <h2>Technical Advantages and Innovations</h2>
+        <p>High Accuracy: By incorporating visual properties (beyond just text), the system achieves near-100% accuracy for supported document types, outperforming template-based or pure OCR methods that fail on layout variations.</p>
+        <p>Adaptability: Rules allow the system to handle diverse documents without custom programming per format. The backward tracking ensures it adapts to edge cases, like misaligned text.</p>
+        <p>Scalability and Efficiency: Document sectioning and hierarchical rules reduce computational load. It's cloud-compatible, aligning with CloudTrade's SaaS model.</p>
+        <p>Error Reduction: Automation minimizes human intervention, cutting costs in processes like e-invoicing (CloudTrade claims processing billions in invoice value).</p>
+        <p>Limitations Addressed: Prior art (e.g., German Patent DE101622156 for basic structure analysis) is improved upon by adding AI rules and visual context for semantic interpretation.</p>
+        <p>This patent forms the foundation of CloudTrade's products, such as Gramatica and Cloud Capture, which apply these methods to real-world scenarios like PDF invoice processing for clients in finance and supply chains. The technology has enabled partnerships (e.g., with Cegedim and Valtatech) and contributed to CloudTrade's growth until its acquisition.</p>
+    </section>
+
+    <section id="legacy">
+        <h2>Legacy and Influence</h2>
+        <p>Develyn's invention has had a lasting impact on intelligent document processing (IDP), influencing subsequent technologies like those at CloudConnect, where evolved versions of this rules-based AI approach continue to drive accuracy in document automation.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Michael Thomson. All rights reserved. | <a href="index.html">Back to Home</a> | <a href="cloudtrade.html">CloudTrade Page</a></p>
+    </footer>
+</body>
+</html>
